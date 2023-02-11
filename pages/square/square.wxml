@@ -1,0 +1,35 @@
+<!--这个是为社区-->
+<scroll-view class="scbg" scroll-y="true">
+<view class = "line1">
+  <text class = "text1">微社区</text>
+</view>
+<view class="bottomrow1">
+  <view class="bottomtab1">
+    <text class="bottomText">广场</text>
+  </view>
+
+  <view class="bottomtab1">
+    <text class="bottomText">个人中心</text>
+  </view>
+</view>
+<block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-index="idx" wx:for-item="itemName" >
+  <view class = 'box'>
+    <view class="fitstblock">
+       <view class="touxiang"><image class="touxiang" src='/icon/加号.png'></image></view>
+      <view class="person">
+        <view class="name">
+          <text class="showname">{{mn}}多来A梦{{idx}}{{itemName}}</text>
+        </view>
+
+      </view>
+    </view>
+    <view class="secondblock">
+      <text class='content'>军事对抗疗法就是领导看士大夫精神的离开的加快速度JFK了解到了拉开圣诞节弗兰克是</text>
+    </view>
+
+  </view>
+</block >
+
+</scroll-view>
+<include src='/pages/bottom_menu/bottom_menu' />
+

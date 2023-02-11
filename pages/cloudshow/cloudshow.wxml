@@ -1,0 +1,6 @@
+<button class="but" bindtap='add'>条件查询</button>
+<block wx:for="{{user}}">
+  <text>class:{{item.class}}</text>
+  <text>    iid:{{item.iid}}</text>
+  <image src="{{item.image}}"></image>
+</block>

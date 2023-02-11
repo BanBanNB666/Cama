@@ -1,0 +1,14 @@
+<!--尝试使用图片背景-->
+<include src='/pages/bottom_menu/bottom_menu' />
+<view class="background">
+  <view class="first">
+    <button class="but1">点我跳转</button>
+  </view>
+  <view class="secrod">
+    <button class="but1">点我跳转</button>
+  </view>
+
+</view>
+
+
+

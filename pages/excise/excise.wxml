@@ -1,0 +1,41 @@
+<!-- 这个是填写信息的界面 -->
+<view class="boxWithCol">
+<view class="boxWithRow">
+  <view class="userinfo-avatar"  bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="viewText">
+   <text > 请输入个人信息 </text> 
+  </view>
+</view>
+  
+
+  <view class="boxWithRow">
+    <image class="bottomImg" src='/icon/加号.png'></image>
+    <input placeholder="手机号" placeholder-class="plas" type = 'number' class="inputs"></input>
+    <image class="bottomImg2" src='/icon/点赞.png'></image>
+  </view>
+
+  <view class="boxWithRow">
+    <image class="bottomImg" src='/icon/加号.png'></image>
+    <input placeholder="学号" placeholder-class="plas" type = 'number' class="inputs"></input>
+    <image class="bottomImg2" src='/icon/点赞.png'></image>
+  </view>
+
+  <view class="boxWithRow">
+    <image class="bottomImg" src='/icon/加号.png'></image>
+    <input placeholder="密码" placeholder-class="plas" type = 'number' class="inputs"></input>
+    <image class="bottomImg2" src='/icon/点赞.png'></image>
+  </view>
+
+  <view class="boxWithRow">
+    <image class="bottomImg" src='/icon/加号.png'></image>
+    <input placeholder="生日" placeholder-class="plas" type = 'number' class="inputs"></input>
+    <image class="bottomImg2" src='/icon/点赞.png'></image>
+  </view>
+
+  <button class="but" bindtap='ok'>ok</button>
+</view>
+
+
+

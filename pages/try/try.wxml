@@ -1,0 +1,4 @@
+<!--pages/try/try.wxml-->
+<text>pages/try/try.wxml</text>
+<button bindtap="getHttpdata"> 12
+</button>

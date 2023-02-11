@@ -1,0 +1,12 @@
+<!--pages/bottom_menu/bottom_menu.wxml-->
+<view class="bottomrow">
+  <view class="bottomtab">
+    <text class="bottomText">广场</text>
+  </view>
+  <view class="bottomtab">
+    <image class="bottomImg" src='/icon/加号.png'></image>
+  </view>
+  <view class="bottomtab">
+    <text class="bottomText">个人中心</text>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+
+
+<van-cell-group>
+  <van-field
+    value="{{ title }}"
+    type="string"
+    label="标题"
+    bind:change="onChange"
+    data-value="title" 
+    placeholder="请输入标题"
+    required
+    autosize
+  />
+  <van-field
+    value="{{ info }}"
+    type="textarea"
+    label="通知内容"
+    bind:change="onChange"
+    data-value="info" 
+    placeholder="请输入通知"
+    required
+    autosize
+  />
+
+  <van-field
+    value="{{ endDate }}"
+    type="date"
+    label="截止日期"
+    bind:change="onChange"
+    data-value="endDate" 
+    placeholder="2022-03-09 09:01"
+    required
+    
+  />
+
+
+</van-cell-group>
+
+
+<van-button square type="primary" block plain bind:click="sendInfo">发送</van-button>

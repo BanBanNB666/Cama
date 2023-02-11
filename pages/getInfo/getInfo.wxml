@@ -1,0 +1,15 @@
+<block wx:for="{{Info}}">
+
+<!-- 申请的信息 -->
+<van-card
+title="{{'标题'+item.title}}"
+desc="{{'内容'+item.info}}" 
+price="{{'DeadLine'+item.endDate}}"
+
+>
+</van-card>
+<text>{{item.endDate}}</text>
+</block>
+
+<text style="text-align: center;font-size: 14px;">————已经到底了————</text>
+

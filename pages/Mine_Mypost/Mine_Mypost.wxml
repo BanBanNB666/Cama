@@ -1,0 +1,60 @@
+
+
+<van-cell-group>
+  <van-field
+   value="{{ id }}"
+    type="string"
+    required
+    label="学号"
+    placeholder="请输入学号" 
+    bind:change="onChange"
+    data-value="id" 
+  />
+
+  <van-field
+    value="{{ password }}"
+    type="string"
+    password
+    label="密码"
+    placeholder="请输入密码"
+    required
+
+    bind:change="onChange"
+    data-value="password" 
+  />
+
+  <van-field
+    value="{{ name }}"
+    type="string"
+    label="姓名"
+    placeholder="请输入所在姓名"
+    required
+    bind:change="onChange"
+    data-value="name" 
+  />
+
+  <van-field
+    value="{{ class }}"
+    type="string"
+    label="班级"
+    placeholder="请输入所在班级"
+    required
+    bind:change="onChange"
+    data-value="class" 
+  />
+  <van-field
+    value="{{ monitor }}"
+    type="boolean"
+    label="班委"
+    placeholder="是则true否则false"
+    required
+    bind:change="onChange"
+    data-value="monitor" 
+  />
+
+
+
+</van-cell-group>
+
+
+<van-button square type="primary" block plain bind:click="tryRegister">更改</van-button>

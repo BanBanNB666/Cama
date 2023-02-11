@@ -1,0 +1,28 @@
+<!--将会是事情安排界面-->
+
+
+
+<scroll-view class="scbg" scroll-y="true">
+  <view class="boxWithRow">
+  <view class="userinfo-avatar"  bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="viewText">
+   <text > 下面的任务要冲TNND </text> 
+  </view>
+</view>
+<block wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-index="idx" wx:for-item="itemName" >
+  <view class = 'box'>
+    <view class="secondblock">
+      <text class='content'>军事对抗疗法就是领导看士大夫精神的离开的加快速度JFK了解到了拉开圣诞节弗兰克是</text>
+    </view>
+    <view class="thirdblock">
+      <button class="buttons">我滴任务完成了</button>
+    </view>
+  </view>
+</block >
+
+</scroll-view>
+<include src='/pages/bottom_menu/bottom_menu' />
+
+

@@ -1,0 +1,21 @@
+<!--发布社区话题-->
+<view Class='textarea'>
+  <textarea placeholder='写纸飞机飞进社区' placeholder-style="color:#88888888; fort-size:38rpx;"  class="textinput" bindinput="bindTextAreaBlur"  maxlength="-1"></textarea>
+</view>
+<view>
+  <button class = "but" bindtap="ok" >确定</button>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

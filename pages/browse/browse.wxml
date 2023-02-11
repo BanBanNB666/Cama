@@ -1,0 +1,14 @@
+<block wx:for="{{Stu}}">
+
+<!-- 申请的信息 -->
+<text>姓名，学号</text>
+<van-card
+title="{{item.name}}"
+desc="{{item.studentID}}" 
+
+>
+</van-card>
+</block>
+
+<text style="text-align: center;font-size: 14px;">————已经到底了————</text>
+

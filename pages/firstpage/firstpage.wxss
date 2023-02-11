@@ -1,0 +1,115 @@
+/* pages/bottom_menu/bottom_menu.wxss */
+.boxWithCol{
+  background-color: rgb(244, 247, 255);
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+
+.viewText{
+  background-color:#DBDBD7 ;
+  width: 50%;
+  height: 20%prx;
+  margin-left: 40rpx;
+  font-size: medium;
+}
+
+.boxWithRow4{
+  background-color: rgb(244, 247, 255);
+  width: 100%;
+  height: 40%;
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  padding-left: 100rpx;
+  float: button;
+
+}
+
+.boxWithRow{
+  background-color: rgb(244, 247, 255);
+  width: 100%;
+  height: 600rpx;
+  /* position: fixed; */
+  display: flex;
+  padding-left: 130rpx;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+
+}
+.boxWithRow2{
+  background-color: rgb(244, 247, 255);
+  width: 100%;
+  height: 20%;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.boxWithRow3{
+  background-color: rgb(244, 247, 255);
+  width: 100%;
+  height: 20%;
+  margin-top: 40rpx;
+  /* position: fixed; */
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.but{
+  width : 60%;
+  height : 80rpx;
+  margin-top: 20rpx;
+  background-color: rgb(157, 207, 240);
+  border-radius: 30rpx ;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.541);
+  font-size: 37rpx;
+}
+
+
+
+.bottomImg2{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+
+
+.inputs{
+  background-color: darkgray;
+  width: 60%;
+  height: 70rpx;
+  margin-left: 5%;
+  margin-right:5% ;
+  border-radius: 10rpx;
+}
+
+.img1{
+  padding: center;
+}
+
+.bottomImg{
+  float: button;
+}

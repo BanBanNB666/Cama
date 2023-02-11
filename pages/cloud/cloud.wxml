@@ -1,0 +1,7 @@
+<!--pages/cloud/cloud.wxml-->
+<button class="but" bindtap='add'>增加</button>
+<button class="but" bindtap='add'>删除</button>
+<button class="but" bindtap='change'>修改</button>
+<button class="but" bindtap='piLiangchange'>批量条件更新</button>
+<button class="but" bindtap='add'>列表</button>
+

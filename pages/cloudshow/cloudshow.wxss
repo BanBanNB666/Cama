@@ -1,0 +1,11 @@
+/* pages/cloudshow/cloudshow.wxss */
+.but{
+  width : 76%;
+  height : 80rpx;
+  margin-top: 120rpx;
+  background-color: red;
+  border-radius: 30rpx ;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 37rpx;
+}

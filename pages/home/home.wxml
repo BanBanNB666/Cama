@@ -1,0 +1,20 @@
+
+<view style="height: 90%;">
+<van-button  square type="primary" block bind:click="navigateToAdd">查看注册申请</van-button>
+<van-button square block bind:click="navigateToInfo">发通知</van-button>
+<van-button square type="primary" block bind:click="navigateToGetInfo">收通知</van-button>
+
+
+<van-button square type="primary" block bind:click="navigateToShuDong">逛树洞</van-button>
+<van-button square type="primary" block bind:click="navigateToBrowse">浏览同学信息</van-button>
+<van-button square type="primary" block bind:click="navigateToMine">个人</van-button>
+
+</view>
+
+
+<!-- <app class="json">      {
+        "pagePath": "pages/Mine_page/Mine_page",
+        "iconPath": "images/pic_un_mine.png",
+        "selectedIconPath": "images/pic_on_mine.png",
+        "text": "我的"
+      }</app> -->

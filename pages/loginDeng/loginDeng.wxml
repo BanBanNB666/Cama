@@ -1,0 +1,30 @@
+
+
+<van-cell-group>
+  <van-field
+   value="{{ id }}"
+    type="string"
+    required
+    label="学号"
+    placeholder="请输入学号" 
+    bind:change="onChange"
+    data-value="id" 
+  />
+
+  <van-field
+    value="{{ password }}"
+    type="string"
+    password
+    label="密码"
+    placeholder="请输入密码"
+    required
+
+    bind:change="onChange"
+    data-value="password" 
+  />
+
+</van-cell-group>
+
+<van-dialog id="van-dialog" />
+<van-button square type="primary" block bind:click="tryLogin">登录</van-button>
+<van-button square type="primary" block plain bind:click="navigateToRegister">注册</van-button>

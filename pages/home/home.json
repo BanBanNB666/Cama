@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button"
+  },
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "同学信息"
+
+}

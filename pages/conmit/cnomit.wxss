@@ -1,0 +1,33 @@
+/* pages/conmit/cnomit.wxss */
+page{
+  background-color: #bebebe;
+}
+
+.textarea{
+  width: 100%;
+  background-color: white;
+}
+
+.textinput{
+  background-color: white;
+  width: 96%;
+  height: 500rpx;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+  font-size: 38rpx;
+}
+
+.but{
+  margin-top: 40rpx;
+  width : 70%;
+  height : 80rpx;
+  background-color: #04be01;
+  border-radius: 15rpx ;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 37rpx;
+  font-weight: bold;
+}

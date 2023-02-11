@@ -1,0 +1,89 @@
+/* 未做事项 */
+@import "/pages/bottom_menu/bottom_menu";
+
+.boxWithRow{
+  /* background-color: rgb(186, 212, 112); */
+  width: 100%;
+  height: 20%;
+  /* position: fixed; */
+  display: flex;
+  margin-top: 70rpx;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+
+.viewText{
+
+  width: 50%;
+  height: 20%prx;
+  margin-left: 40rpx;
+  font-size: medium;
+}
+
+.page{
+  background-color: rgb(147, 218, 153);
+}
+
+.scbg{
+  background-color:  rgb(150, 245, 158) ;
+  width: 100%;
+  height: 91%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+}
+
+.box{
+  width: 80%;
+  background-color: rgb(239, 240, 169);
+  padding-top: 5rpx;
+  border-bottom:20rpx solid rgb(125, 248, 135);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 40rpx;
+}
+
+.content{
+  margin-left: 50rpx;
+  font-size: 35rpx;
+}
+
+.secondblock{
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  padding-bottom: 20rpx;
+  border-bottom:3rpx solid rgb(97, 107, 116);
+}
+
+.showtime{
+  color: rgb(155, 163, 163);
+}
+
+.thirdblock{
+  height: 100rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.buttons{
+    border-radius: 80rpx;
+    font-size: 35rpx;
+    background-color: rgb(243, 205, 149);
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}

@@ -1,0 +1,21 @@
+<!--垃圾-->
+<view class="background">
+  <view class="first">
+    <input placeholder="学号" placeholder-class="pla" class="input" bindinput="stunumberinput"></input>
+  </view>
+  <view class="second">
+    <input placeholder="姓名" placeholder-class="pla" class="input"type='number'bindinput="usernameinput"></input>
+  </view>
+  <view class="second">
+    <input placeholder="学院" placeholder-class="pla" class="input" bindinput="xueyuaninput"></input>
+  </view>
+  <view class="second">
+    <input placeholder="班级" placeholder-class="pla" class="input" bindinput="classnumberinput"></input>
+  </view>
+
+  <view>
+  <!-- bindtap叫绑定，绑定了一个叫ok的函数 -->
+  <!-- <text>{{a}}</text> a是数据绑定，为了可以实现数据更新，在js有配套函数 -->
+    <button class = "but" bindtap="ok">确定</button>
+  </view>
+</view>

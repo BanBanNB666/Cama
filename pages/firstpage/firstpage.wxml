@@ -1,0 +1,29 @@
+<!--本界面是未注册时的第一个界面照片名：firstpage1.png firstpage2.png-->
+
+<!-- 11到17行有绑定信息 负责人：冯珞钊 -->
+
+ <!-- 这个是填写信息的界面 -->
+<view class="boxWithCol">
+
+<view class="boxWithRow">
+  <image src='/images/firstpage1.png' class="img1"></image>
+</view>
+  
+
+  <view class="boxWithRow2">
+    <button class="but" bindtap='ok'>体验</button>
+    
+  </view>
+  <view class="boxWithRow3">
+    <button class="but" bindtap='ok'>登入/注册</button>
+  </view>
+
+  <view class="boxWithRow4">
+    <image class="bottomImg" src='/images/firstpage2.png'>
+    </image>
+  </view>
+</view>
+
+
+
+
